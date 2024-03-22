@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0056b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .quote-container {
+    background-color: #FCFBF4;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .quote {
+    margin: 20px 0;
+    font-size: 24px;
+    position: relative;
+  }
+  
+  .quote:before {
+    content: "\201C"; /* Unicode for opening quotation mark */
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    color: #007bff; /* Quotation mark color */
+  }
+  
+  .quote:after {
+    content: "\201D"; /* Unicode for closing quotation mark */
+    font-size: 40px;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    color: #007bff; /* Quotation mark color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
